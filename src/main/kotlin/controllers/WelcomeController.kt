@@ -1,4 +1,4 @@
-package __PACKAGE__.controllers
+package com.todo.list.controllers
 
 import dev.alpas.http.HttpCall
 import dev.alpas.routing.Controller

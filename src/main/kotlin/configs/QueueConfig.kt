@@ -1,4 +1,4 @@
-package __PACKAGE__.configs
+package com.todo.list.configs
 
 import dev.alpas.Environment
 import dev.alpas.queue.activemq.ActiveMQConnection

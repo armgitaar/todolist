@@ -1,6 +1,6 @@
-package __PACKAGE__
+package com.todo.list
 
-import __PACKAGE__.controllers.WelcomeController
+import com.todo.list.controllers.WelcomeController
 import dev.alpas.routing.RouteGroup
 import dev.alpas.routing.Router
 

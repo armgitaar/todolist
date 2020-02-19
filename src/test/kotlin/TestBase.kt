@@ -1,6 +1,6 @@
-import __PACKAGE__.ConsoleKernel
-import __PACKAGE__.addRoutes
-import __PACKAGE__.database.factories.UserFactory
+import com.todo.list.ConsoleKernel
+import com.todo.list.addRoutes
+import com.todo.list.database.factories.UserFactory
 import dev.alpas.auth.Authenticatable
 import dev.alpas.make
 import dev.alpas.ozone.from

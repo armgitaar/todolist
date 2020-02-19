@@ -1,4 +1,4 @@
-package __PACKAGE__
+package com.todo.list
 
 import dev.alpas.Application
 import dev.alpas.ServiceProvider

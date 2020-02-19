@@ -1,4 +1,4 @@
-package __PACKAGE__
+package com.todo.list
 
 import dev.alpas.Alpas
 
