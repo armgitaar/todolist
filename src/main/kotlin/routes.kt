@@ -1,6 +1,6 @@
 package com.todo.list
 
-import com.todo.list.controllers.WelcomeController
+import com.todo.list.controllers.TaskController // Update WelcomeController to TaskController
 import dev.alpas.routing.RouteGroup
 import dev.alpas.routing.Router
 
@@ -14,8 +14,12 @@ fun Router.addRoutes() = apply {
 }
 
 private fun RouteGroup.webRoutesGroup() {
-    get("/", WelcomeController::index).name("welcome")
-    // register more web routes here
+    get("/", TaskController::index).name("welcome") // Update WelcomeController to TaskController
+
+    // Add the following routes
+    post("/", TaskController::class).name("store")
+    delete("/", TaskController::class).name("delete")
+    patch("/", TaskController::class).name("update")
 }
 
 private fun Router.apiRoutes() {

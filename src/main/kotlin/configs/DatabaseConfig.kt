@@ -9,7 +9,7 @@ import dev.alpas.ozone.MySqlConnection
 class DatabaseConfig(env: Environment) : DatabaseConfig(env) {
     init {
         // Uncomment the following line to add database support in your app
-        // addConnections(env)
+        addConnections(env)
     }
 
     // https://alpas.dev/docs/database-getting-started#multiple-database-connections
